@@ -8,5 +8,7 @@ namespace WebEvaluation.Models
          {
 
         }
+
+        public System.Data.Entity.DbSet<WebEvaluation.Models.Estudiante> Estudiantes { get; set; }
     }
 }
